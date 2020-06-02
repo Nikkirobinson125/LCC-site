@@ -72,32 +72,7 @@
  
 </style>
 <body>
-  <h1>web demo for using images in web pages</h1>
-
-  <p>a demo for adding images in html and manipulating them with css. there
-    will be three versions of the same image tweaked in different ways.
-    there will also be either a tiled background image or a background
-    gradient.</p>
-
-  <!-- image with an id -->
-  <img src="./images demo page_files/mood.jpg" alt="girl with silly face" id="one">
-
-  <!-- image inside a box with an id -->
-  <div id="two">
-    <img src="./images demo page_files/mood.jpg" alt="girl with silly face to show the mood of how crazy this week has been">
-  </div>
-
-  <!-- box with content. we will load image through css -->
-  <div id="three">
-    <p>content</p>
-  </div>
-
-  <!-- addition of a figure tag that adds caption. preferred method for accessibility. slightly different default formatting, but we can change that -->
-  <figure>
-    <img src="./images demo page_files/mood.jpg" alt="girl with silly face">
-    <figcaption>mood for web design stuff</figcaption>
-  </figure>
-
+ 
       width: 100%;
       height: 100%;
       height: calc(100vh - 4em);
