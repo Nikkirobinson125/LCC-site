@@ -3,7 +3,7 @@
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>images demo page</title>
   
-  <body>
+  <style>
   <h1>web demo for using images in web pages</h1>
 
   <p>a demo for adding images in html and manipulating them with css. there
@@ -70,7 +70,7 @@
    }
     }
  
-<style>
+</style>
 <body>
   <h1>web demo for using images in web pages</h1>
 
@@ -111,7 +111,6 @@
       filter: sepia(100%) brightness(50%);
 }
     }
-</style>
 </head>
 </body>
 </html>
